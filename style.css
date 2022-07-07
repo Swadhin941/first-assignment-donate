@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.top-banner{
+    margin: 0%;
+    background-image: url("images/donation10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header{
+    text-align: center ;
+    color:white;
+}
+.header img{
+    width: 100%;
+}
+.header-text{
+    padding-top: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.button{
+    background-image: linear-gradient(to right,#ff9470,tomato);
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+.donation{
+
+}
+.amount{
+    background-color: rgb(241, 241, 241); 
+    padding: 20px;
+    margin:5px;
+    display: inline-block; 
+    border-radius: 5px;
+}
+#selected-amount{
+    background-color: rgb(241, 241, 241); 
+    padding: 20px;
+    margin:5px;
+    display: inline-block;
+    border-radius: 5px;
+    color: tomato; 
+    border:2px solid tomato;
+}
+#input-amount{
+    border-top: 1px solid rgb(241, 241, 241); 
+    width: 300px; 
+    padding-left: 150px; 
+    border-radius: 5px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+.donation-items{
+    width: 100%; 
+    margin-top: 30px;
+}
+#donation-items1{
+    background-color: rgb(134, 197, 163); 
+    padding: 20px; 
+    display: inline-block;
+    width: 15%; 
+    margin: 5px;
+}
+#donation-items2{
+    background-color: rgb(233, 183, 226); 
+    padding: 20px;
+    display: inline-block;
+    width: 15%;
+    margin: 5px;
+}
+#donation-items3{
+    background-color: rgb(238, 240, 138); 
+    padding: 20px;
+    display: inline-block;
+    width: 15%;
+    margin: 5px;
+}
+#ceo{
+    display:inline-block;
+    background-color:rgb(241, 241, 241);
+    width: 35%; 
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px black;
+}
+#co-founder{
+    display:inline-block;
+    background-color:rgb(241, 241, 241);
+    width: 34%; 
+    margin: 10px;
+     padding: 5px;
+     box-shadow: 1px 1px black;
+}
+.subscribe{
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.subscribe-input{
+    margin-top:10px ; 
+    padding:20px;
+    background-color: rgb(217, 228, 119);
+    display: inline-block;
+    border-radius: 5px; 
+}
+footer{
+    height:100px; 
+    background-color:rgb(4, 4, 37);
+    text-align: center;
+}
+footer h1{
+    color:orange;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px; 
+}
